@@ -1,0 +1,47 @@
+When you look for things such as music, you might want to look for meaningful groups. It could be from a particular artist, a particular genre, a particular language or a particular decade. How you group items gives you more insights about it.
+
+
+You might find you have a strong linking for vintage music, or something upbeat.
+
+
+In machine learning, we can often group examples to understand more about the data. Grouping unlabelled examples is called clustering.
+
+
+For example, let's say that you have a dataset of flowers, with different petal and sepal size but you want to identify what kind of a flower are they. For this, you can group the blobs in the scatter plot and then based on the attributes of the cluster, you can identify what flower it is.
+
+
+One of the most widely used algorithms for clustering is the K-means algorithm.
+
+-------------------------------------------------------------------------
+Applications of clustering
+
+It has a wide use of activities. Based on the example above, it can be used in the field of biology to differentiate species from each other, or it can be used to identify different images / audio. It can also be used to group behaviours, or detecting abnormal behaviour.
+
+--------------------------------------------------------------------------------
+
+How does it work?
+
+We are going to study the K-means algorithm. The first step to perform here is to decide the number of clusters. The K signifies the number of clusters that the algorithm would find in the dataset.
+
+
+Choosing the right K is very important. Sometimes, it is clearly visible from the dataset when it is visualised, however, most of the time, this is not the case.
+
+
+
+Steps to perform the K-means Algorithm -
+
+
+Step 1
+Choose the number K of clusters
+
+Step 2
+Select randomly the center points (centroids) for the K clusters (2 in this case)
+
+Step 3
+Assign each data point to the closest centroid
+
+Step 4
+Shift the centroids a little for all the clusters
+
+Step 5
+Re-assign each data point to the new closest centroid. If any points got reassigned, repeat Step 4 again otherwise the model is ready.
