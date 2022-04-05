@@ -41,7 +41,7 @@ Step 3
 Assign each data point to the closest centroid
 
 Step 4
-Shift the centroids a little for all the clusters
+Shift the centroids a little for all the clusters 
 
 Step 5
 Re-assign each data point to the new closest centroid. If any points got reassigned, repeat Step 4 again otherwise the model is ready.
